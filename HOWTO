@@ -1,0 +1,32 @@
+WHATS THIS?
+-------------------------
+this server is based on the hyperion protocol. 
+with this, you can control a 12V LED Stripe with every hyperion app.
+
+ASSEMBLY
+-------------------------
+the stripe should be connected to a RPI
+
+CLIENTS
+-------------------------
+every hyperion app could be used, like 
+https://play.google.com/store/apps/details?id=nl.hyperion.hyperionfree&hl=de
+for your android device.
+
+USAGE
+-------------------------
+- port is hardcoded to 19555
+- use the following pins on your rpi:
+  0 = red
+  1 = blue
+  2 = green
+- connect the LED stripe to your pi like described here:
+  https://learn.adafruit.com/rgb-led-strips/usage
+
+TODO
+-------------------------
+everything.
+- add a Makefile
+- config file for port settings
+- add more documentation
+- json support
